@@ -12,13 +12,13 @@ import { FilterTextboxComponent } from './customers-list/filter-textbox.componen
     CustomersComponent, CustomersListComponent, FilterTextboxComponent
   ],
   imports: [
-    CommonModule,
+    CommonModule, coooo
    
     
   ],
   providers: [],
   
-  exports:[CustomersComponent, FilterTextboxComponent]
+  exports:[CustomersComponent]
  
 })
 export class  CustomersModule { }
