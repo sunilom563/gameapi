@@ -10,6 +10,8 @@ export class CustomersListComponent implements OnInit {
     filteredCustomers: any[] = [];
     customersOrderTotal: number;
     currencyCode: string = 'USD';
+
+    asajamam:any[] = [];
     
     constructor() {}
     
